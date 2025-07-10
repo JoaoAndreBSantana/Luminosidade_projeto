@@ -4,7 +4,7 @@ Este projeto lê o nível de luminosidade de um ambiente usando o sensor **BH175
 
 ---
 
-## 📦 Componentes Utilizados
+## Componentes Utilizados
 
 | Componente        | Descrição                                  |
 |-------------------|---------------------------------------------|
@@ -15,7 +15,7 @@ Este projeto lê o nível de luminosidade de um ambiente usando o sensor **BH175
 
 ---
 
-## 🛠️ Conexões dos Pinos
+## Conexões dos Pinos
 
 | Função              | Pino (RP2040) |
 |---------------------|---------------|
@@ -27,7 +27,7 @@ Este projeto lê o nível de luminosidade de um ambiente usando o sensor **BH175
 
 ---
 
-## ⚙️ Funcionamento do Código
+##  Funcionamento do Código
 
 ### 🔹 Inicialização
 - O sensor BH1750 é configurado para começar a medição contínua.
@@ -48,7 +48,7 @@ Este projeto lê o nível de luminosidade de um ambiente usando o sensor **BH175
 
 ---
 
-## 🧠 Lógica de Iluminação
+## Lógica de Iluminação
 
 - A variável `BORDAS` define os LEDs que formam a borda da matriz 5x5.
 - A estrutura `LED` faz o mapeamento lógico dos índices para a ordem física real da matriz NeoPixel.
@@ -57,7 +57,7 @@ Este projeto lê o nível de luminosidade de um ambiente usando o sensor **BH175
 
 ---
 
-## 📊 Comportamento Real
+## Comportamento Real
 
 | Situação          | Display OLED     | Matriz NeoPixel        |
 |-------------------|------------------|-------------------------|
@@ -67,7 +67,7 @@ Este projeto lê o nível de luminosidade de um ambiente usando o sensor **BH175
 
 ---
 
-## ✅ Conclusão
+## Conclusão
 
 Este sistema oferece uma forma clara e visual de indicar a presença de luz ambiente:
 
